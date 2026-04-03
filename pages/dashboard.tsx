@@ -19,7 +19,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '../components/dropdown-menu';
-import FirstCircleIcon from '../assets/first-circle.jpg';
+import FirstCircleIcon from '../assets/first-circle.jpeg';
 
 interface DashboardLayoutProps {
   children: ReactNode;
@@ -41,9 +41,6 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         {/* Logo */}
         <div className="h-16 flex items-center px-6 border-b border-gray-200">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-teal-900 rounded-lg flex items-center justify-center">
-              <CreditCard className="h-5 w-5 text-white" />
-            </div>
             <img src={FirstCircleIcon} width="120" height="120" />
             <span className="font-medium text-xl">Pay</span>
           </div>
